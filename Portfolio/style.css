@@ -66,9 +66,8 @@
 
 html{
     font-size: 10px;
-    /* żeby moc operowac wartosciami rem 1rem = 10px  */
     overflow-x: hidden;
-    /* zeby nie widzieć scrolla jak menu wyjedzie */
+
 
 }
 
@@ -116,7 +115,6 @@ a::after{
     height: .15em;
     border-radius: 10px;
     transition: .8s ease-in-out;
-    /* 0.8s czas wyjeżdżania linii pod tekst */
    
 }
 a:hover::after{
@@ -126,13 +124,10 @@ a:hover::after{
 
 .burger{
     background: transparent;
-    /* przezroczysty kolor */
     border: none;
     outline: none;
-    /* żeby po kliknięciu linii nie było */
     cursor: pointer;
     display: none;
-    /* w wersji deskopowej buregera ma nie być */
 }
 
 .line{
